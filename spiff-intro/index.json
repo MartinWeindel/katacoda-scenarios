@@ -1,0 +1,54 @@
+{
+  "title": "Spiff++ Introduction",
+  "description": "First steps with Spiff++",
+  "difficulty": "beginner",
+  "time": "2 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "Example 1 - Simple in-domain processing",
+        "text": "step1.md"
+      },
+      {
+        "title": "Example 2 - Merging multiple YAML documents, temporary nodes, lambda functions and aggregations",
+        "text": "step2.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md",
+      "credits": "",
+      "courseData": "download-spiff.sh",
+      "code": "await-spiff.sh"
+    },
+    "finish": {
+      "text": "finish.md"
+    },
+    "assets": {
+      "host01": [
+        {
+          "file": "deployment.yaml",
+          "target": "~/"
+        },
+        {
+          "file": "secret.yaml",
+          "target": "~/"
+        },
+        {
+          "file": "values.yaml",
+          "target": "~/"
+        },
+        {
+          "file": "helpers.yaml",
+          "target": "~/"
+        }
+      ]
+    }
+  },
+  "environment": {
+    "uilayout": "editor-terminal",
+    "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\n"
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}

@@ -1,0 +1,6 @@
+values:
+  name: bombastic
+  namespace: default
+  secrets:
+    password: test1234
+    token: xxx-yyy-zzz

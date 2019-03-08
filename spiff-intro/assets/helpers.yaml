@@ -1,0 +1,2 @@
+helpers:
+  secretdata: (( |data|->sum[data|{}|s,k,v|->s {k=base64(v)}] ))
