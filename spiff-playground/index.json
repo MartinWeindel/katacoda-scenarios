@@ -17,7 +17,7 @@
     "assets": {
       "host01": [
         {
-          "file": "deployment.yaml",
+          "file": "template.yaml",
           "target": "~/"
         }
       ]
