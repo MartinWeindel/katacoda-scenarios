@@ -1,6 +1,6 @@
 {
   "title": "Spiff++ Playground",
-  "description": "Playground to explore spiff",
+  "description": "Playground to explore spiff yourself",
   "details": {
     "steps": [
       {
@@ -17,14 +17,14 @@
     "assets": {
       "host01": [
         {
-          "file": "template.yaml",
+          "file": "deployment.yaml",
           "target": "~/"
         }
       ]
     }
-
   },
   "environment": {
+    "hidefinish": true,
     "uilayout": "editor-terminal",
     "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\n"
   },
