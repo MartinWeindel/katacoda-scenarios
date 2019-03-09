@@ -1,0 +1,19 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: memory-demo
+  namespace: mem-example
+  label:
+    app: demo
+spec:
+  containers:
+  - name: memory-demo-ctr
+    image: polinux/stress:v1.0
+    resources:
+      limits:
+        memory: "400Mi"
+        cpu: "200m"
+      requests:
+        memory: "100Mi"
+    command: ["stress"]
+    args: ["--vm-bytes", "250M", "--vm-hang", "1", "--verbose"]

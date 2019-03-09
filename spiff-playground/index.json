@@ -1,0 +1,34 @@
+{
+  "title": "Spiff++ Playground",
+  "description": "Playground to explore spiff",
+  "details": {
+    "steps": [
+      {
+        "title": "Playground",
+        "text": "step1.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md",
+      "credits": "",
+      "courseData": "download-spiff.sh",
+      "code": "await-spiff.sh"
+    },
+    "assets": {
+      "host01": [
+        {
+          "file": "template.yaml",
+          "target": "~/"
+        }
+      ]
+    }
+
+  },
+  "environment": {
+    "uilayout": "editor-terminal",
+    "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\n"
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}

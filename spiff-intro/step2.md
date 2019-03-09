@@ -11,6 +11,6 @@ Note that it defines `values` and `helpers` as temporary nodes. This means, thes
 
 # Run the processing.
 
-To run the processing of the `secret.yaml`, call `spiff merge` with the template file `secret.yaml` and the stub files `values.yaml` and `helpers.yaml`:
+To run the processing, call `spiff merge` with the template file `secret.yaml` and the stub files `values.yaml` and `helpers.yaml`:
 
 `spiff merge secret.yaml values.yaml helpers.yaml`{{execute}}

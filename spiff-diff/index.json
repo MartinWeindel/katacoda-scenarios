@@ -1,0 +1,39 @@
+{
+  "title": "Spiff++ Diff",
+  "description": "Using spiff to show structural changes between two YAML files",
+  "difficulty": "beginner",
+  "time": "2 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "Spiff diff",
+        "text": "step1.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md",
+      "credits": "",
+      "courseData": "download-spiff.sh",
+      "code": "await-spiff.sh"
+    },
+    "assets": {
+      "host01": [
+        {
+          "file": "manifest-v1.yaml",
+          "target": "~/"
+        },
+        {
+          "file": "manifest-v2.yaml",
+          "target": "~/"
+        }
+      ]
+    }
+  },
+  "environment": {
+    "uilayout": "editor-terminal",
+    "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\n"
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
